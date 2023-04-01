@@ -45,7 +45,6 @@ if(distancia_skills >= 300) {
     habilidades[15].classList.add("teq");
     habilidades[16].classList.add("problemas");
     habilidades[17].classList.add("dedicación");
-
 }}
 
 // Detecto en scrolling para aplicar la anumacion en la barra
@@ -53,4 +52,6 @@ if(distancia_skills >= 300) {
 window.onscroll = function(){
     efectoHabilidades();
 }
+
+
   
