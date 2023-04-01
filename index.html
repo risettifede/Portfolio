@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Federico Risetti</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/foto pestaña.png" />
+    
+</head>
+<body>
+    <!-- ENCABEZADO DE PÁGINA -->
+    <div class="contenedor-header" id="header">
+        <header>
+            <div class="logo">
+                <a href="#">Federico Risetti</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li> <a href="#Home" onclick="seleccionar()">HOME</a></li>
+                    <li> <a href="#About" onclick="seleccionar()">ABOUT</a></li>
+                    <li> <a href="#Skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li> <a href="#Curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li> <a href="#Portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li> <a href="#Contact" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION HOME-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Foto principal.png" alt="">
+            </div>
+            <h1>FEDERICO RISETTI</h1>
+            <h2>Full Stack Developer - Photographer</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/risettifede/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/risettifede"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/federico-risetti-507567196/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/FedeRisetti"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION ABOUT -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>ABOUT</h2>
+            <p><span>Bienvenidos, mi nombre es Federico Risetti</span> Este porfolio fue desarrollado 100% por mí. Es una muestra mis habilidades y mis conocimientos. Me considero alguien tecnológicamente hábil, investigador y entusiasta del mundo digital.
+            Soy estudiante de la carrera Full Stack Developer en el bootcamp Soy Herny! y tengo mucho entusiasmo por encontrar mi primera oportunidad en el grandioso mundo de la tecnología.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02/03/1998
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            + 54 9 11 2403 9964
+                        </li>
+                        <li>
+                            <strong>Localidades</strong>
+                            Ciudad Autónoma de Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Freelance</span> 
+                        </li>
+                        <!-- <li>
+                            <strong>Web Site</strong>
+                            www.ejemplo.com
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>FUTBOL</span>   
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-snowboarding"></i>
+                            <span>SURF</span>   
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>COCINA</span>   
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>   
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>   
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>MOVIES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-figma"></i>
+                            <span>DISEÑO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!-- Develompent Skills -->
+                <div class="col">
+                    <h3>DEVELOPMENT</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML y CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NodeJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ExpressJs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PostgreSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Scrum</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Material UI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Photography Skills -->
+                <div class="col">
+                    <h3>PHOTOGRAPHY</h3>
+                    <div class="skill">
+                        <span>Lightroom</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Premiere Pro</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Canon EOS Rebel T5</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>IA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>PROFESSIONAL</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <!-- COLUMNA IZQUIERDA -->
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Licenciatura en Comunicación</h4>
+                        <span class="casa">Universidad del Salvador</span>
+                        <span class="fecha">2016 - 2019</span>
+                        <p> He desarrollado habilidades comunicativas tanto escritas como verbales. Capacidad de investigación por cuenta propia. Cautela en la comunicación e investigación. Redes sociales. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Soy Henry</span>
+                        <span class="fecha">2023</span>
+                        <p> Desarrollo de habilidades duras y blandas. Adquisición de herramientas demandadas en el mercado: JS, REACT, REDUX, SQL, entre otras. Autodidacta y resolución de problemas de manera independiente y en equipos.
+                        <b>Tengo mayor interés por Front End.</b>  </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Por cuenta propia</h4>
+                        <span class="casa">Autodidacta de fuentes digitales</span>
+                        <span class="fecha">Constantemente</span>
+                        <p> FreeCodeCamp, Domestika, Chat GPT, You, documentación oficial de lengiajes de programación, entre algunos Aplicación de conceptos en proyectos tangibles. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- COLUMNA DERECHA -->
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Asistente de Inversión</h4>
+                        <span class="casa">GroupM (WPP)</span>
+                        <span class="fecha">2020 - actualmente </span>
+                        <p> Trabajo en equipo multidisciplinario. Control de tarifas publicitarias y manejo de plataforma oficial de la empresa. Resolución de imprevistos y trabajo orientado a objetivos.  </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fotográfo y editor</h4>
+                        <span class="casa">Huemul - Agencia de comunicación audiovisual</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p> Community Manager y filmmaker. Ideación, producción y edición de material para las cuentas de nuestros clientes. Aplicación de herramientas de la suite de Adobe. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="item der">
+                        <h4>Acá poner próxima experiencia</h4>
+                        <span class="casa">Acá poner proxima experiencia</span>
+                        <span class="fecha">Aca poner proxima experiencia</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque ab placeat fugiat. Repellendus quidem debitis officia rerum aspernatur deserunt hic minus accusamus, optio recusandae autem nemo assumenda. Ut, cumque.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="css/Img.css/img2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>El Calafate</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="css/Img.css/img1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Mendoza</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="css/Img.css/img3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Mar del Plata</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <!-- <div class="proyecto">
+                    <img src="css/Img.css/img4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Una más</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="css/Img.css/img5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Una más</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="css/Img.css/img6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Una más</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Tema">
+                    <input type="text" placeholder="Celular (opcional)">
+                    <textarea name="text" placeholder="Escribe tu mensaje aquí" id="" cols="30" rows="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje <i class="fa-solid fa-paper-plane-top"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <img src="css/Img.css/Ubicacion.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Sánchez de Bustamante 2173, Ciudad Autónoma de Buenos Aires
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    risettifederico@gmail.com
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile"></i>
+                                    + 54 9 11 2403 9964
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/risettifede/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/risettifede"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/federico-risetti-507567196/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/FedeRisetti"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div>
+            <h4>Mi portfolio - Federcio Risetti ™ - 2022</h4>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
