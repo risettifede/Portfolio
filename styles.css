@@ -466,7 +466,7 @@ html{
 }
 @keyframes teq{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .problemas{
@@ -475,7 +475,7 @@ html{
 }
 @keyframes problemas{
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .dedicación{
@@ -484,7 +484,7 @@ html{
 }
 @keyframes dedicación{
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 95%;}
 }
 
 /* SECCION CURRICULUM */
