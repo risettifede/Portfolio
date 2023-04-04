@@ -764,7 +764,7 @@ html{
     width: 350px;
     left: 95%;
     transform: translate(-50%, -50%);
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .contacto .col .info ul{
