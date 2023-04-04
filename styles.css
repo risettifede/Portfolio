@@ -649,6 +649,7 @@ html{
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
 
 .portfolio .galeria .proyecto .overlay{
@@ -752,6 +753,7 @@ html{
 
 .contacto .col img{
     width: 200%;
+    border-radius: 10px;
 }
 
 .contacto .col .info{
@@ -762,6 +764,7 @@ html{
     width: 350px;
     left: 95%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
 
 .contacto .col .info ul{
