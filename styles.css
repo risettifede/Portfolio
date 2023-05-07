@@ -659,6 +659,7 @@ html{
     height: 100%;
     text-align: center;
     background: linear-gradient(#1dc9a6cc, rgba(28,182,152,.8));
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -683,10 +684,14 @@ html{
 
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(css/Img.css/fondocontacto.jpg);
-    background-color: #2d3436;
+    background-image: url(css/Img.css/fondodecontacto.jpg);
+    /* background-color: #2d3436; */
     color: #fff;
     padding: 50px 0;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contacto .contenido-seccion{
@@ -716,8 +721,9 @@ html{
     width: 100%;
     padding: 18px;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color: #2d3436;
+    border-radius: 10px;
     color: #fff;
     font-size: 18px;
 }
@@ -727,7 +733,7 @@ html{
     background-color: transparent;
     border: 2px solid #fff;
     width: fit-content;
-    display: block;
+    display: flex;
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
@@ -738,6 +744,7 @@ html{
 
 .contacto .button .overlay{
     position: absolute;
+    display: flex;
     top: 0;
     left: 0;
     width: 0;
@@ -827,24 +834,8 @@ footer .arriba{
 
 /* SECCION RESPONSIVE */
 
-@media screen and (max-width:780px) {
-    nav{
-        display: none;
-    }
-
-    .nav-responsive{
-        display: block;
-    }
-
-    nav.responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
 
 
-    }
-}
 
 
 

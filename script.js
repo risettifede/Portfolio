@@ -6,7 +6,7 @@ function mostrarOcultarMenu(){
         document.getElementById("nav").classList="";
         menuVisible=false
     } else {
-        document.getElementById("nav").classList="responsive";
+        document.getElementById("nav").classList="";
         menuVisible=true
     }
 }
@@ -52,6 +52,8 @@ if(distancia_skills >= 300) {
 window.onscroll = function(){
     efectoHabilidades();
 }
+
+document-getElementById('button')
 
 
   
